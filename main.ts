@@ -108,6 +108,17 @@ function moveBoat (boatArray: any[], boatRotateArray: string[]) {
         iterator += 1
     }
 }
+function isHitOrMiss (enemyBoats: any[]) {
+    for (let index = 0; index <= 4; index++) {
+        let list: number[][] = []
+        for (let value of list[index]) {
+            let currentBoatSprite2: Sprite = null
+            if (grid.spriteCol(currentBoatSprite2) == grid.spriteCol(cursor) && 0 == 0) {
+            	
+            }
+        }
+    }
+}
 controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     rotateFlag = "nothing"
     grid.move(cursor, 0, 1)
